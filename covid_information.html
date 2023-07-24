@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+    <style>
+        body{
+            background-color:#3368a0;
+           
+            margin: 0;
+            padding: 0;
+        }
+    
+        nav .nav1{
+            float: right;
+            margin-right: 180px;
+            margin-bottom: 0;
+            margin-top: 30px;
+
+           
+        }
+        nav .nav1 li{
+            display: inline;
+            margin-right: 15px;
+            font-size: 18px;
+          
+           
+            
+        }
+        nav .nav1 li a{
+            text-decoration: none;
+            color: #004288;
+        }
+        nav .nav1 li a:hover{
+            text-decoration: underline;
+        }
+       
+        #become:hover{
+               text-decoration: underline;
+        }
+        #searchbar:hover{
+           
+            color:  rgba(0, 0, 0, 0.752);
+            cursor: pointer;
+        }
+        .search{
+          
+           width: 426px;
+           height: 50px;
+          float: right;
+          
+          
+           margin-top: 60px;
+           margin-left: 100px;
+           margin-right: 195px;
+         
+           
+        }
+        input[type=search]{
+         padding:11px;
+         border: 1px solid  rgba(0, 0, 255, 0.6);
+         
+        }
+        nav img {
+            float: left;
+           margin-left: 200px;
+           margin-top: 0;
+           cursor: pointer;
+            padding: 0;
+        }
+
+        
+        .nav2{
+           float: left;
+           margin-top: 50px;
+           margin-right: 200px;
+           margin-left: 160px;
+        }
+        nav .nav2 li{
+            display: inline;
+            margin-right: 15px;
+         
+           
+            
+        }
+        nav .nav2 li a{
+            text-decoration: none;
+           
+        }
+        .covid{
+            height: 80px;
+            width: 1110px;
+            background-color: #004288;
+            opacity: 0.8;
+            color: white;
+             float: left;
+          margin-left: 200px;
+          text-align: center;
+          padding-top: 30px;
+          padding-bottom: 5px;
+          margin-bottom: 20px;
+          font-size: 40px;
+        }
+       
+        .covidbottom{
+            
+            width: 1150px;
+            margin-left: 200px;
+            height: 600px;
+            float:left ;
+        }
+        .covidbottom img{
+            width: 535px;
+            height: 335px;
+            float: left;
+           padding-right: 40px;
+            margin: 0;
+
+        }
+        .covidbottom .p1
+        {
+           width: 520px;
+           margin-left: 40px;
+           font-size: 18px;
+           float: left;
+        }
+        .covidbottom .p2{
+            font-size: 18px;
+           width: 540px;
+           float: right ;
+           margin-right: 30px;
+        }
+        figcaption{
+           
+           margin-top: 350px;
+           margin-left: 100px;
+          
+        }
+        .covidbottom a{
+            margin-right: 220px;
+            margin-left: 160px;
+            font-size: 25px;
+            color: #004288;
+
+        }
+        .covidbottom1{
+            background-color:#e5ecf3;
+            width: 1519px;
+            margin-left: 0;
+            height: 600px;
+            float:left ;
+        }
+        .covidbottom1 img{
+            width: 535px;
+            height: 335px;
+           margin-top: 20px;
+    
+            float: left;
+           padding-right: 40px;
+           
+
+        }
+        .covidbottom1 .p1
+        {
+            width: 550px;
+           margin-left: 170px;
+           font-size: 18px;
+           float: left;
+           
+        }
+        .covidbottom1 .p2{
+            font-size: 18px;
+            width: 540px;
+           float: right ;
+           margin-right: 230px;
+        }
+        .covidbottom1 a{
+            margin-right: 100px;
+            margin-left: 300px;
+            font-size: 25px;
+
+        }
+        .covidbottom2{
+            background-color: #da0042;;
+            width: 1090px;
+            margin-left: 180px;
+            height: 150px;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            float:left ;
+            color: white;
+            padding: 30px;
+        }
+        .covidbottom2 a{
+            color: white;
+        }
+ 
+
+        .covidbottom2 p{
+            width: 970px;
+            font-size: 17px;
+        }
+        .covidbottom3{
+            background-color:#e5ecf3;
+            width: 1519px;
+           margin-top: 20px;
+           margin-bottom: 20px;
+           padding: 0;
+            height: 300px;
+            float:left ;
+            color: white;
+            
+        }
+        .covidbottom3 ul{
+            list-style-type: none;
+        }
+        .covidbottom3 ul li{
+            margin-bottom: 10px;
+        }
+        .covidbottom3 ul li a{
+            text-decoration:underline;
+        }
+        .covidbottom4 {
+           
+            width: 700px;
+            height: 500px;
+            margin-left: 160px;
+            float: left;
+           
+        }
+        .covidbottom4 img{
+            width:260px;
+           
+           float: right;
+           margin-top: 0;
+            height: 100px;
+        }
+        .covidbottom4 #a1{
+            width: 340px;
+            margin-top: 0;
+            float: left;
+           
+            margin-bottom: 0;
+        }
+        .covidbottom4 a{
+            color: #004288;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .covidbottom4 .p1{ 
+           float: left;
+            width: 430px;
+            margin-bottom: 0;
+            margin-top: 25px;
+        }
+        .covidbottom4 .p2{
+            width: 420px;
+        }
+        .covidbottom5{
+          float: left;
+            width: 420px;
+            margin-left: 30px;
+            height: 480px;
+            background-color:#e5ecf3;
+        }
+        form{
+            margin-left: 20px;
+            
+        }
+        form input[type=text]{
+          padding: 10px 10px;
+          margin-bottom: 20px;
+        }
+        form button{
+           text-align: center;
+           padding: 8px 20px;
+           background-color: #004288;
+           
+        }
+        form button a{
+            color: white;
+            text-decoration: none;
+        }
+        form input[type=reset]{
+           text-align: center;
+           padding: 7px 20px;
+        }
+        .bottomdiv1{
+            float: left;
+            background-color: #e5ecf3;;
+            width: 1519px;
+           
+        }
+        .bottomdiv1 ul{
+            list-style-type: none;
+            float: left;
+           
+        }
+        .bottomdiv1 ul li{
+           
+            width: 300px;
+           
+            margin-right: 100px;
+            margin-bottom: 10px;
+            
+        }
+        .bottomdiv1 ul li a{
+            color: #004288;
+        }
+        footer{
+            background-color:#004288;
+            width: 1519px;
+            color: white;
+            height: 343px;
+            margin: 0;
+            padding: 0;
+        }
+        footer  .ul1{
+            
+            float: left;
+            margin-left: 190px;
+            margin-right: 0;
+            width: 170px;
+            list-style-type: none;
+            margin-top: 0;
+           
+
+        }
+
+        footer  .ul2 , footer  .ul3{
+            float: left;
+            margin-left: 20px;
+           margin: 0;
+            list-style-type: none;
+            width: 170px;
+          
+        }
+        footer  .ul2 li a , footer  .ul3 li a , footer  .ul1 li a 
+        {
+            color: white;
+            
+        }
+        footer  .ul2 li  , footer  .ul3 li , footer  .ul1 li {
+            margin-bottom: 13px;
+            font-size: 17px;
+        }
+        .footerdiv{
+            float: left;
+            margin-top: 14px;
+            width: 380px;
+            height: 310px;
+            margin-bottom: 0;
+           padding-left: 30px;
+           
+            margin-left: 0;
+            text-align: center;
+            border-left: 2px solid white;
+        }
+        footer .footerdiv ul {
+            list-style-type: none;
+            margin-left: 10px;
+            margin-top: 0;
+            margin-bottom: 40px;
+            
+
+           
+
+        }
+        footer .footerdiv ul li{
+            float: left;
+            margin-right: 20px;
+            margin-left: 0;
+            margin-top: 0;
+            border: 1px solid white;
+            border-radius: 100%;
+            padding: 5px;
+            background-color: white;
+            margin-bottom: 0;
+
+        }
+       
+       
+        
+       
+    
+
+
+
+
+    </style>
+</head>
+<body>
+    <div style="margin-top: 5px; background-color: white;width: 1519px;height: 3000px;">
+        <nav>
+            <ul class="nav1">
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Quick links</a></li>
+                <li><a href="#">Log in</a></li>
+                <li><a href="#" style="background-color:#da0042; color: white;padding: 10px;" id="become">BECOME A MEMBER</a></li>
+               
+            </ul>
+            <img  height="200px"
+            width="300px" src="https://www.rcn.org.uk/-/media/Royal-College-Of-Nursing/Images/Sitecore-Thumbnails/Site-Assets/Logo-2021.svg?h=106&w=270&la=en&hash=01CC92BAC84F1A98AE71DF3023E73D48">
+
+            <div class="search">
+                
+                <input type="search" placeholder="Search" size="50" >
+                <div style="width: 40px;float: right;margin-top: 10px;" ><i class="ri-search-line" style="font-size: 20px;background-color: #004288;opacity: 0.75;color: white;padding: 10px;cursor: pointer;" id="searchbar"></i></div>
+            </div>
+           
+            
+            <ul class="nav2">
+                <li ><a href="#">Membership</a></li>
+                <li ><a href="#">Employment and Pay</a></li>
+                <li><a href="#">Professional Development</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">Get Involved</a></li>
+                <li><a href="#">Get Help</a></li>
+                <li><a href="#">News & Events</a></li>
+                <li style="border-right: 1px solid blue; padding-right: 8px;"><a href="#">About</a></li>
+                <li><a href="#">RCN Learn<sup></sub><i class="ri-arrow-right-up-line" style="color: red;"></i></sup></a></li>
+            </ul>
+        </nav>
+      
+      
+
+        
+            <div class="covid">
+                COVID-19 advice and guidance
+            </div>
+            <div class="covidbottom">
+                 <img id="pic1" src="https://www.rcn.org.uk/-/media/Royal-College-Of-Nursing/Images/COVID-19/COVID-nursing-under-pressure.jpg?h=400&w=600&la=en&hash=6194B25E24EF28523FF8C8C6927B40B4">
+
+                 <img id="pic2" src="https://www.rcn.org.uk/-/media/Royal-College-Of-Nursing/Images/CTA-600x400/Homepage-CTA-action-banner/COVID-Landing-Page-600x400.png?h=400&w=600&la=en&hash=14C4491C94F9C79A8516317DFCBBC842">
+                 <figcaption style="font-size: 25px;">COVID-19 FAQs <span style="margin-left: 440px;">COVID-19 clinical guidance</span></figcaption> 
+                 <p class="p1">Find out how to protect yourself, what you should expect from your &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp; employer and what to do if you have concerns.</p>
+                 <p class="p2">Clinical information and key resources to support you with management &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of COVID-19.</p>
+                 <a href="#">>Read our FAQs</a>                                                             <a href="#">>Read our guidance</a>
+              
+        </div>
+        <div class="covidbottom1">
+            <img id="pic1" style=" margin-left: 160px;"
+            src="https://www.rcn.org.uk/-/media/Royal-College-Of-Nursing/Images/COVID-19/COVID-19-and-your-mental-wellbeing.jpg?h=400&w=600&la=en&hash=76B7B56D62385F2A96976A61AFB2B557">
+
+            <img id="pic2" style="margin-right: 150px;"
+             src="https://www.rcn.org.uk/-/media/Royal-College-Of-Nursing/Images/COVID-19/COVID-19-toolkit.jpg?h=400&w=600&la=en&hash=20089D887E442E51962BE8C5B2862263">
+            <figcaption style="font-size: 20px;font-weight: bold; margin-left: 210px;">COVID-19 and your mental wellbeing <span style="margin-left: 210px;">COVID-19 workplace risk assessment toolkit</span></figcaption> 
+            <p class="p1">Clinical information and key resources to support you with management &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of COVID-19.</p>
+            <p class="p2">Our toolkit supports health care professionals to manage the risk of&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 COVID-19 in the workplace.</p>
+            <a href="#" style="color: #004288;">>Access our recources</a>                    <a href="#" style="color: #004288;">>Read the toolkit</a>
+         
+        </div>
+        <div class="covidbottom2">
+            <a href="#" style="font-size: 25px;font-weight: bold;">COVID-19 inquiry</a>
+            <p>The UK COVID-19 Inquiry has been set up to examine the UK's preparedness and response to the COVID-19 pandemic, and to learn lessons for the future.<br>
+             Members want to look forward, ensuring that lessons learned are applied to policies and plans across health and social care.
+              Members wishing to submit evidence to the inquiry can do so via our <a href="#">online form.</a></p>
+
+        </div>
+        <div class="covidbottom3"> 
+            <div style="float: left;margin-right: 50px;background-color:#004288;margin-left: 200px;margin-top: 20px;width: 500px;height: 250px;">
+               <h2 style="margin-left: 50px;">COVID-19 advice guides</h2>
+               <ul>
+                <li><a><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="opacity: 0.6;font-size: 18px;"></i>Vaccination</a></li>
+                <li><a><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="opacity: 0.6;font-size: 18px;"></i>Staffing levels</a></li>
+                <li><a><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="opacity: 0.6;font-size: 18px;"></i>Long COVID</a></li>
+                <li><a><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="opacity: 0.6;font-size: 18px;"></i>Personal protective equipment(PPE)</a></li>
+                <li><a><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="opacity: 0.6;font-size: 18px;"></i>Read all of our COVID-19 advice guides </a></li>
+               </ul>
+            </div>
+            <div style="background-color: #634696;width: 500px;height: 250px;float: left;margin-top: 20px;margin-right: 30px;">
+                <h2 style="margin-left: 50px;">COVID-19 position statements</h2>
+                <ul>
+                 <li><a><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="opacity: 0.6;font-size: 18px;"></i>Vaccination</a></li>
+                 <li><a><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="opacity: 0.6;font-size: 18px;"></i>PPE for COVID-19</a></li>
+                 <li><a><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="opacity: 0.6;font-size: 18px;"></i>Staff living in care homes</a></li>
+                 <li><a><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="opacity: 0.6;font-size: 18px;"></i>Plans to expand the COVID-19 temporary register</a></li>
+                 <li><a><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="opacity: 0.6;font-size: 18px;"></i>Read all of our COVID-19 position statements </a></li>
+                </ul>
+             </div>
+        </div>
+        <div class="covidbottom4">
+        <p style="margin-bottom: 0;background-color: #e5ecf3;width: 80px; color: #39363c;">26 Jun 2023</p>
+           <a href="#" id="a1">RCN expert declares pandemic preparedness ‘inadequate’ in evidence to COVID inquiry</a>
+           <img src="https://www.rcn.org.uk/-/media/Royal-College-Of-Nursing/Images/News-800x400/2023/Rose-Gallagher-at-COVID-inquiry.png">
+           <p class="p1">Infection, prevention and control specialist nurse Rose Gallagher said the UK government planned for the wrong
+             pandemic, didn’t</p>
+           <span style="width: 650px;float: left;"> on learnings from previous outbreaks and failed to prepare the right protective equipment for respiratory 
+        infections like COVID-19.</span>
+          
+           <p style="display: block;background-color: #e5ecf3;width: 80px;height: 20px;margin-top: 185px;color: #39363c;">13 Jun 2023</p>
+           <a href="#">Humans Not Heroes Creative Workshops</a>
+           <img src="https://www.rcn.org.uk/-/media/Royal-College-Of-Nursing/Images/Events-800x400/Library/2023/China-Plate.png">
+           <p  class="p2">Creatively reflect on your own experiences of COVID-19 and co-create a new audio piece which will feature in the RCN exhibition.</p>
+          
+           <p style="background-color: #e5ecf3;width: 80px;height: 20px;color: #39363c;margin-top: 30px;">25 Apr 2023</p>
+           <a href="#">Unmasked: Real Stories of Nursing in COVID-19</a>
+           <img src="https://scadmin.rcn.org.uk/-/media/Royal-College-Of-Nursing/Images/Events-800x400/Library/2023/Exhibition-launch-11-May.png">
+           <p  class="p3">RCN’s new Covid-19 exhibition reveals real nursing stories of the pandemic.</p>
+          
+
+        </div>
+        <div class="covidbottom5">
+            <form>
+            <h2>Filter</h2>
+            <label style="margin-bottom: 5px;">Keyword</label>
+            <br>
+            
+            <input type="text"><br>
+            <label style="margin-top: 5px;">Topic</label><br>
+            <select style="padding: 10px;margin-bottom: 20px;margin-top: 5px; width: 255px;">
+               <option>All</option> 
+               <option>Congress</option>
+               <option>COVID-19</option>
+               <option>Diversity</option>
+               <option>Employment and Pay</option>
+               <option>International Year of the Nurse and Midwife</option>
+               <option>EU</option>
+               <option>HCAs APs and TNAs</option>
+               <option>Professional Practice</option>
+               <option>Research</option>
+               <option>Revalidation</option>
+               <option>STPs</option>
+               <option>Students</option>
+            </select>
+            <br>
+            <label>RCN region / country</label><br>
+            <select style="padding: 10px;margin-bottom: 20px;margin-top: 5px; width: 255px;">
+                <option>All</option> 
+                <option>Congress</option>
+                <option>COVID-19</option>
+                <option>Diversity</option>
+                <option>Employment and Pay</option>
+                <option>International Year of the Nurse and Midwife</option>
+                <option>EU</option>
+                <option>HCAs APs and TNAs</option>
+                <option>Professional Practice</option>
+                <option>Research</option>
+                <option>Revalidation</option>
+                <option>STPs</option>
+                <option>Students</option>
+             </select>
+             <br>   
+             <button><a href="#" style="font-weight: bold;font-size: 17px;">FILTER &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-up fa-rotate-90 fa-lg"></i></a></button>
+             <input type="reset" value="RESET FILTER &#10006;" style="font-size: 17px;color: grey;font-weight: bold;">
+             </form>
+        </div>
+        <p style="float: left; text-align: center; margin-right: 450px; margin-left: 500px;margin-top: 80px;"><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="color: gray;transform: rotate(270deg);">
+        </i> Previous&nbsp; 1 of &nbsp;12 <a href="#" style="color: #004288;text-decoration: none;">&nbsp;&nbsp;Next <i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="color: #004288;;"></i></a></p>
+    </div>
+    <div class="bottomdiv1">
+        <h2 style="margin-left: 175px;font-size: 25px;margin-bottom: 0;">In this section</h2>
+        <ul style=" margin-left: 135px;">
+            <li><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="float: left;margin-top: 10px;font-size: 17px;color: #004288;"></i><a href="#">COVID-19 guidance on mental healthcare delivery</a></li>
+            <li><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="float: left;margin-top: 5px;font-size: 17px;color: #004288;"></i><a href="#">COVID-19 and domestic abuse</a></li>
+           <li><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="float: left;margin-top: 5px;font-size: 17px;color: #004288;"></i><a href="#">Clinical guidance for managing COVID-19</a></li> 
+           <li><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="float: left;margin-top: 7px;font-size: 17px;color: #004288;"></i><a href="#">COVID-19 guidance on DNACPR and verification of death</a></li>
+            <li><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="float: left;margin-top: 5px;font-size: 17px;color: #004288;"></i><a href="#">COVID-19 Remote prescribing</a></li>
+           <li><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="float: left;margin-top: 10px;font-size: 17px;color: #004288;"></i><a href="#">Raising concerns letter for nursing support workers</a></li>
+        </ul>
+        <ul>
+            <li><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="float: left;margin-top: 5px;font-size: 17px;color: #004288;"></i><a href="#">COVID-19 redeployment letter</a></li>
+            <li><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="float: left;margin-top: 10px;font-size: 17px;color: #004288;"></i><a href="#">COVID-19 and raising concerns template content</a></li>
+            <li><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="float: left;margin-top: 3px;font-size: 17px;color: #004288;"></i><a href="#">COVID-19 vaccination</a></li>
+            <li><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="float: left;margin-top: 10px;font-size: 17px;color: #004288;"></i><a href="#">COVID-19 workplace risk assessment toolkit</a></li>
+            <li><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="float: left;margin-top: 3px;font-size: 17px;color: #004288;"></i><a href="#">Employment guidance for NHS staff</a></li>
+            <li><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="float: left;margin-top: 3px;font-size: 17px;color: #004288;"></i><a href="#">COVID-19 position statements</a></li>
+        </ul>
+        <ul>
+            <li><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="float: left;margin-top: 5px;font-size: 17px;color: #004288;"></i><a href="#">100 days of COVID-19</a></li>
+            <li><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="float: left;margin-top: 10px;font-size: 17px;color: #004288;"></i><a href="#">Nursing during a pandemic: share your experience</a></li>
+            <li><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="float: left;margin-top: 5px;font-size: 17px;color: #004288;"></i><a href="#">COVID-19 events</a></li>
+            <li><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="float: left;margin-top: 5px;font-size: 17px;color: #004288;"></i><a href="#">Nursing workforce expansion</a></li>
+            <li><i class="fa fa-chevron-up fa-rotate-90 fa-lg" style="float: left;margin-top: 5px;font-size: 17px;color: #004288;"></i><a href="#">Open letters</a></li>
+        </ul>
+    </div>
+    <footer style="float: left;padding: 0;margin: 0;">
+        
+        <div style=" width: 850px;height: 325px;margin: 0;float: left;">
+         <h2 style="width: 200px;margin-left: 230px;margin-right: 0;margin-top: 10px;font-size: 25px;color: whitesmoke; opacity: 0.8;">Links</h2>
+        <ul class="ul1">
+            <li><a href="#">My RCN</a></li>
+            <li><a href="#">RCNXtra</a></li>
+            <li><a href="#">RCN Shop</a></li>
+            <li><a href="#">RCNi</a></li>
+            <li><a href="#">Careers at the RCN</a></li>
+            <li><a href="#">Modern slavery statement</a></li>
+            <li><a href="#">Manage Cookie</a></li>
+            <li><a href="#">Preferences</a></li>
+        </ul>
+        <ul class="ul2">
+            <li><a href="#">RCN Starting Out</a></li>
+            <li><a href="#">RCN Campaigns</a></li>
+            <li><a href="#">RCNi Nursing Jobs</a></li>
+            <li><a href="#">RCN Foundation</a></li>
+            <li><a href="#">Venue hire</a></li>
+            <li><a href="#">Privacy policy</a></li>
+           
+        </ul>
+        <ul class="ul3">
+            <li><a href="#">RCN Learn</a></li>
+            <li><a href="#">Steward Portal</a></li>
+            <li><a href="#">Press office</a></li>
+            <li><a href="#">RCN Working with us</a></li>
+            <li><a href="#">Legal</a></li>
+            <li><a href="#">Accessibility</a></li>
+           
+        </ul>
+       
+         </div>
+        
+        <div class="footerdiv">
+            
+            <h2 style="width: 250px;height: 50px;margin-top: 0;color: whitesmoke; opacity: 0.8;margin-left: 28px;font-size: 28px;margin-bottom: 0;">Connect with us:</h2>
+            <ul>
+                <li class="icon"><a href=""><i class="fa fa-twitter" style="color: #004288;font-size: 40px; padding: 0 5px;"></i></a></li>
+                <li class="icon"> <a href=""><i class="fa fa-facebook" style="color:#004288;font-size: 40px;padding: 0 10px;"></i></a></li>
+                <li class="icon"><a href=""><i class="fa fa-instagram" style="color:#004288;font-size: 40px; padding: 0 5px;"></i></a></li>
+                <li class="icon"><a href=""><i class="fa fa-youtube" style="color: #004288;font-size: 40px; padding: 0 5px;"></i></a></li>
+            </ul>
+            <br>
+            <p style="font-size: 20px;">© 2023 Royal College of Nursing</p>
+        </div>
+    </footer>
+</body>
+</html>
